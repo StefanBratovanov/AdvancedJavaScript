@@ -1,0 +1,44 @@
+#wrapper {
+    width: 400px;
+    background-color: pink;
+}
+
+form {
+    padding-left: 100px;
+}
+
+input {
+    width: 60%;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#invoiceDisplay {
+    display: inline-block;
+    width: 80%;
+}
+
+#invoice {
+    display: inline;
+    width: 15px;
+}
+
+.mandatory {
+    color: red;
+}
+
+input[type="submit"],input[type="reset"]{
+    display: inline-block;
+}
+
+input[type="submit"]{
+    width: 38%;
+}
+input[type="reset"]{
+    width: 22%;
+}
+
+
+#displayOnRequest {
+    visibility: hidden;
+}
